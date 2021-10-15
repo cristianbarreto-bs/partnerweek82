@@ -10,6 +10,11 @@
   text-align: center;
 }
 
+.strong--question {
+  font-family: 'Montserrat';
+  color: red
+}
+
 .headingLevel2--shelfTitle {
   font-weight: 200;
 }
