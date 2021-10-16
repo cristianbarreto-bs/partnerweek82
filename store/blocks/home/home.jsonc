@@ -21,12 +21,12 @@
       "height": 720,
       "images": [
         {
-          "image": "https://storecomponents.vteximg.com.br/arquivos/banner-principal.png",
-          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
+          "image": "https://partnerweek82.myvtex.com/arquivos/banner1-img.jpg",
+          "mobileImage": "https://partnerweek82.myvtex.com/arquivos/banner-mobile.png"
         },
         {
-          "image": "https://storecomponents.vteximg.com.br/arquivos/banner.jpg",
-          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
+          "image": "https://partnerweek82.myvtex.com/arquivos/banner2-img.jpg",
+          "mobileImage": "https://partnerweek82.myvtex.com/arquivos/banner-mobile-2.png"
         }
       ]
     }
@@ -78,7 +78,7 @@
       "id": "info-card-home",
       "isFullModeStyle": false,
       "textPosition": "left",
-      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+      "imageUrl": "https://partnerweek82.myvtex.com/arquivos/banner-info-card.png",
       "headline": "Clearance Sale",
       "callToActionText": "DISCOVER",
       "callToActionUrl": "/sale/d",

@@ -1,0 +1,19 @@
+:global(.bg-action-primary) {
+    background-color: #F7B538 !important;
+}
+
+    :global(.b--action-primary):hover {
+        border-color: #DB7C26 !important;
+    }
+
+:global(.bg-action-primary):hover{
+    background-color: #DB7C26 !important;
+}
+
+    :global(.b--action-primary){
+        border-color: #F7B538 !important;
+    }
+
+:global(.bg-emphasis) {
+    background-color: #F7B538;
+}

@@ -1,6 +1,8 @@
+@import url('../base/global.css');
+
 .notificationBarContainer {
   background-color: #e6f1e6;
-  color: #03034e;
+  color: #F7B538 !important;
   font-weight: 700;
   font-size: 12px;
   text-decoration: underline;
@@ -14,7 +16,7 @@
 }
 
 .newsletter {
-  background-color: #03054e;
+  background-color: #F7B538 !important;
   max-width: 1528px;
   margin: 0 auto;
 }
