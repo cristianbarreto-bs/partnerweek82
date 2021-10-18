@@ -16,7 +16,8 @@
 }
 
 .newsletter {
-  background-color: #F7B538 !important;
+  /* background-color: #F7B538 !important; */
+  background-image: url("https://cristian--partnerweek82.myvtex.com/arquivos/banner2-img.jpg");
   max-width: 1528px;
   margin: 0 auto;
 }

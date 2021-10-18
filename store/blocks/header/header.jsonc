@@ -29,7 +29,7 @@
   },
   "notification.bar#home": {
     "props": {
-      "content": "SELECTED ITEMS ON SALE! CHECK IT OUT!"
+      "content": "PRUEBA LA NUEVA PIZZA SICILIANA!"
     }
   },
   "flex-layout.row#3-desktop": {
@@ -92,8 +92,8 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "https://storecomponents.vteximg.com.br/arquivos/store-theme-logo.png",
-      "width": "180"
+      "url": "/arquivos/logo-1.png",
+      "width": "100"
     }
   },
   "header-layout.mobile": {
@@ -123,8 +123,8 @@
 
   "menu#drawer": {
     "children": [
-      "menu-item#category-apparel",
-      "menu-item#category-home",
+      "menu-item#category-pizza",
+      "menu-item#pizza-especial",
       "menu-item#more"
     ],
     "props": {
@@ -136,7 +136,7 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "https://storecomponents.vteximg.com.br/arquivos/store-theme-logo-mobile.png",
+      "url": "/arquivos/logo.png",
       "width": "70"
     }
   }

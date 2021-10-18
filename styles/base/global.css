@@ -17,3 +17,9 @@
 :global(.bg-emphasis) {
     background-color: #F7B538;
 }
+
+@media (min-width: 300px) and (max-width: 639px) {
+    .t-action {
+        font-size: 0.7rem;
+    }
+}

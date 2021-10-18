@@ -2,8 +2,6 @@
   "store.home": {
     "blocks": [
       "list-context.image-list#demo",
-      /* You can make references to blocks defined in other files.
-       * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
       "__fold__.experimentalLazyAssets",
       "flex-layout.row#deals",
       "rich-text#shelf-title",
@@ -18,15 +16,19 @@
   "list-context.image-list#demo": {
     "children": ["slider-layout#demo-images"],
     "props": {
-      "height": 720,
+      "height": 650,
       "images": [
         {
-          "image": "https://partnerweek82.myvtex.com/arquivos/banner1-img.jpg",
-          "mobileImage": "https://partnerweek82.myvtex.com/arquivos/banner-mobile.png"
+          "image": "/arquivos/pizza-1.jpg",
+          "mobileImage": "/arquivos/pizza-1-mobile.jpg"
         },
         {
-          "image": "https://partnerweek82.myvtex.com/arquivos/banner2-img.jpg",
-          "mobileImage": "https://partnerweek82.myvtex.com/arquivos/banner-mobile-2.png"
+          "image": "/arquivos/pizza-2.jpg",
+          "mobileImage": "/arquivos/pizza-2-mobile.jpg"
+        },
+        {
+          "image": "/arquivos/pizza-3.jpg",
+          "mobileImage": "/arquivos/pizza-3-mobile.jpg"
         }
       ]
     }
@@ -46,7 +48,7 @@
 
   "rich-text#shelf-title": {
     "props": {
-      "text": "## Summer",
+      "text": "## Tienes que probar estas delicias",
       "blockClass": "shelfTitle"
     }
   },
@@ -78,10 +80,10 @@
       "id": "info-card-home",
       "isFullModeStyle": false,
       "textPosition": "left",
-      "imageUrl": "https://partnerweek82.myvtex.com/arquivos/banner-info-card.png",
-      "headline": "Clearance Sale",
-      "callToActionText": "DISCOVER",
-      "callToActionUrl": "/sale/d",
+      "imageUrl": "/arquivos/pizza-oven.jpg",
+      "headline": "Explora nuestras pizzas especiales",
+      "callToActionText": "Ver todas",
+      "callToActionUrl": "/pizza/especial",
       "blockClass": "info-card-home",
       "textAlignment": "center"
     }
@@ -89,14 +91,14 @@
 
   "rich-text#question": {
     "props": {
-      "text": "**This is an example store built using the VTEX platform.\nWant to know more?**",
-      "blockClass": "question"
+      "text": "**Nuestra prioridad principal es crear un producto delicioso con un valor increíble. Nuestro menú es sencillo e incluye nuestros ingredientes más frescos que garantizan un producto de alta calidad, listo cuando tú lo desees.**",
+      "blockClass": "sponsor"
     }
   },
 
   "rich-text#link": {
     "props": {
-      "text": "\n**Reach us at**\nwww.vtex.com.br",
+      "text": "\n**Lee más sobre nosotros en**\nblacksip.com",
       "blockClass": "link"
     }
   }

@@ -60,9 +60,23 @@
     ]
   },
 
+  
+  "flex-layout.row#banner-one": {
+    "children": ["search-banner#one"]
+},
+
+  "search-banner#one": {
+    "props": {
+        "area": "two",
+        "blockClass": "banner-category",
+        "horizontalAlignment": "center"
+    }
+},
+
   "search-result-layout.desktop": {
     "children": [
       "flex-layout.row#searchbread",
+      "flex-layout.row#banner-one",
       "flex-layout.row#searchtitle",
       "flex-layout.row#result"
     ],
@@ -158,6 +172,7 @@
     "children": [
       "flex-layout.row#searchinfomobile",
       "flex-layout.row#searchbread",
+      "flex-layout.row#banner-one",
       "flex-layout.row#productCountMobile",
       "flex-layout.row#fetchprevious",
       "flex-layout.row#contentmobile",

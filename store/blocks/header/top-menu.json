@@ -15,8 +15,8 @@
         "type": "internal",
         "href": "#",
         "noFollow": false,
-        "tagTitle": "Shop",
-        "text": "Shop"
+        "tagTitle": "Comprar",
+        "text": "Comprar"
       }
     }
   },
@@ -33,10 +33,10 @@
       "highlight": false,
       "itemProps": {
         "type": "external",
-        "href": "http://vtex.com",
+        "href": "http://blacksip.com",
         "noFollow": false,
         "tagTitle": "visit vtex.com",
-        "text": "visit vtex.com"
+        "text": "visita blacksip.com"
       }
     }
   }

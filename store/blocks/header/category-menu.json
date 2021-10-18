@@ -4,104 +4,104 @@
       "experimentalOptimizeRendering": true
     },
     "children": [
-      "menu-item#category-apparel",
-      "menu-item#category-home",
+      "menu-item#category-pizza",
+      "menu-item#pizza-especial",
       "menu-item#more"
     ]
   },
-  "menu-item#category-apparel": {
+  "menu-item#category-pizza": {
     "props": {
-      "id": "menu-item-category-apparel",
+      "id": "menu-item-category-pizza",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/apparel---accessories/",
+        "href": "/pizza/",
         "noFollow": false,
-        "tagTitle": "Apparel & Accessories",
-        "text": "Apparel & Accessories"
+        "tagTitle": "Pizza",
+        "text": "Pizza"
       }
     },
     "blocks": [
-      "vtex.menu@2.x:submenu#category-apparel"
+      "vtex.menu@2.x:submenu#category-pizza"
     ]
   },
-  "vtex.menu@2.x:submenu#category-apparel": {
+  "vtex.menu@2.x:submenu#category-pizza": {
     "props": {
       "width": "auto"
     },
     "children": [
-      "vtex.menu@2.x:menu#category-apparel"
+      "vtex.menu@2.x:menu#category-pizza"
     ]
   },
-  "vtex.menu@2.x:menu#category-apparel": {
+  "vtex.menu@2.x:menu#category-pizza": {
     "props": {
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#category-apparel-clothing",
-      "menu-item#category-apparel-accessories",
-      "menu-item#category-apparel-eyeglasses"
+      "menu-item#category-pizza-dulce",
+      "menu-item#category-pizza-carnes-picante",
+      "menu-item#category-pizza-vegetariana"
     ]
   },
-  "menu-item#category-apparel-clothing": {
+  "menu-item#category-pizza-dulce": {
     "props": {
-      "id": "menu-item-category-apparel-clothing",
+      "id": "menu-item-category-pizza-dulce",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/apparel---accessories/clothing/",
+        "href": "/pizza/dulce/",
         "noFollow": false,
-        "tagTitle": "Clothing",
-        "text": "Clothing"
+        "tagTitle": "Dulce",
+        "text": "Dulce"
       }
     }
   },
-  "menu-item#category-apparel-accessories": {
+  "menu-item#category-pizza-carnes-picante": {
     "props": {
-      "id": "menu-item-category-apparel-accessories",
+      "id": "menu-item-category-pizza-carnes-picante",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/apparel---accessories/accessories/",
+        "href": "/pizza/carnes-y-picante",
         "noFollow": false,
-        "tagTitle": "Accessories",
-        "text": "Accessories"
+        "tagTitle": "Carnes y picante",
+        "text": "Carnes y picante"
       }
     }
   },
-  "menu-item#category-apparel-eyeglasses": {
+  "menu-item#category-pizza-vegetariana": {
     "props": {
-      "id": "menu-item-category-apparel-eyeglasses",
+      "id": "menu-item-category-pizza-vegetariana",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/apparel---accessories/eyeglasses/",
+        "href": "/pizza/vegetariana/",
         "noFollow": false,
-        "tagTitle": "Eyeglasses",
-        "text": "Eyeglasses"
+        "tagTitle": "Vegetariana",
+        "text": "Vegetariana"
       }
     }
   },
-  "menu-item#category-home": {
+  "menu-item#pizza-especial": {
     "props": {
-      "id": "menu-item-category-home",
+      "id": "menu-item-pizza-especial",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/home---decor/",
+        "href": "/pizza/especial",
         "noFollow": false,
-        "tagTitle": "Home & Decor",
-        "text": "Home & Decor"
+        "tagTitle": "Pizza especial",
+        "text": "Pizza especial"
       }
     }
   },
@@ -115,8 +115,8 @@
         "type": "internal",
         "href": "#",
         "noFollow": true,
-        "tagTitle": "More",
-        "text": "More"
+        "tagTitle": "Más",
+        "text": "Más"
       }
     },
     "blocks": [
@@ -132,6 +132,9 @@
     ]
   },
   "flex-layout.row#menu-more": {
+    "props": {
+      "colSizing": "auto"
+    },
     "children": [
       "flex-layout.col#menu-more-1",
       "flex-layout.col#menu-more-2"
@@ -143,6 +146,9 @@
     ]
   },
   "flex-layout.col#menu-more-2": {
+    "props": {
+      "width": "60%"
+    },
     "children": [
       "info-card#home"
     ]
@@ -166,8 +172,8 @@
         "type": "internal",
         "href": "/about-us",
         "noFollow": true,
-        "tagTitle": "About us",
-        "text": "About us"
+        "tagTitle": "Sobre nosotros",
+        "text": "Sobre nosotros"
       }
     }
   },
@@ -181,8 +187,8 @@
         "type": "internal",
         "href": "/faq",
         "noFollow": true,
-        "tagTitle": "FAQ",
-        "text": "FAQ"
+        "tagTitle": "Preguntas frequentes",
+        "text": "Preguntas frequentes"
       }
     }
   },
@@ -196,8 +202,8 @@
         "type": "internal",
         "href": "/contact-us",
         "noFollow": true,
-        "tagTitle": "Contact Us",
-        "text": "Contact Us"
+        "tagTitle": "Contáctanos",
+        "text": "Contáctanos"
       }
     }
   }
