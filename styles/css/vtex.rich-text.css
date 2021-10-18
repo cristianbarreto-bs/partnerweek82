@@ -10,6 +10,11 @@
   text-align: center;
 }
 
+.strong--sponsor {
+  font-family: 'Montserrat', sans-serif;
+  color: #3f3f40;
+}
+
 .headingLevel2--shelfTitle {
   font-weight: 200;
 }
@@ -22,19 +27,15 @@
   justify-content: center;
 }
 
-.container--question {
-  justify-content: center;
-}
 
-.container--question .paragraph {
+.container--sponsor .paragraph {
   text-align: center;
-  max-width: 540px;
   margin: 0 16px;
-  padding-top: 120px;
-  color: #03034E;
+  padding: 120px 10% 0 10%;
+  color: #3f3f40;
 }
 
-.container--question .strong {
+.container--sponsor .strong {
   font-size: 32px;
   line-height: 2rem;
   font-weight: 700;
@@ -42,10 +43,9 @@
 
 .container--link .paragraph {
   text-align: center;
-  max-width: 540px;
   padding-top: 36px;
   padding-bottom: 84px;
-  color: #03034E;
+  color: #3f3f40;
 }
 
 .container--link .strong {
